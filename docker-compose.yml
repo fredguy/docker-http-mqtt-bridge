@@ -1,7 +1,7 @@
 version: '2'
 services:
   app:
-    image: migoller/http-mqtt-bridge
+    image: fredguy/docker-http-mqtt-bridge
     env_file:
       - http-mqtt-bridge.env
     ports:
