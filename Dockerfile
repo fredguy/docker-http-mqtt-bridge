@@ -40,6 +40,6 @@ RUN npm install pm2 -g
 # Copy PM2 config
 COPY pm2app.yml .
 
-EXPOSE 5000
+EXPOSE 1885
 
 CMD ["pm2-docker", "pm2app.yml"]
